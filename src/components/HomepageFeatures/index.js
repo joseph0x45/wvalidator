@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Open Source',
+    Svg: require('@site/static/img/os.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        WValidator is also yours. And we will be very happy if users start implementing their own validators. Just clone the repo, read some code and you are ready to go
       </>
     ),
   },
@@ -23,11 +22,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Zero Dependencies',
     Svg: require('@site/static/img/zero.svg').default,
     description: (
       <>
-        Zero Dependencies. No JQuery. Just pure JavaScript. Can be used as ES6 modules or Global scripts
+        Work out of the box. No JQuery or any library needed. Just pure JavaScript. Can be used as ES6 modules or Global scripts
       </>
     ),
   },
