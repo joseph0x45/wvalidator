@@ -14,22 +14,20 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Written in TypeScript',
+    Svg: require('@site/static/img/ts.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        WValidator uses Type Safety under the hood, to better control your inputs values. Written in TypeScript and converted into ES6
       </>
     ),
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/zero.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Zero Dependencies. No JQuery. Just pure JavaScript. Can be used as ES6 modules or Global scripts
       </>
     ),
   },
